@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-web-avance-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass style.scss style.css -w -s compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}

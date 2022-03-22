@@ -1,0 +1,19 @@
+@import"body";
+@import"footer";
+@import"header";
+@import"main";
+@import"variable";
+@import"condicionales";
+@import"form";
+@import"aside";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    min-height: 100%;
+}
+

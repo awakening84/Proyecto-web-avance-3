@@ -1,0 +1,17 @@
+$vista:mobile;
+
+body{
+  @if$vista==desktop{
+    @media only screen and(min-width:1024px){
+      h2{font-size: 25px;}
+      
+    }
+  }@else if $vista==mobile{
+    @media only screen and(max-width:767px){
+      h2{font-size: 25px;}
+      
+    }
+  }@else{
+    h2{font-size: 25px;}
+     }
+}

@@ -1,0 +1,159 @@
+
+body {
+    font-size: 20px;
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    height: 100px;
+    color: rgb(0, 12, 12);
+    background: -webkit-linear-gradient(left, hsl(49, 91%, 46%), #dcd9b9);
+    background: -o-linear-gradient(right, #d46912, #d1a11c);
+    background: -moz-linear-gradient(right, #ec4150, #f1670a);
+    background: linear-gradient(to right, #c5762c, #dccab9);
+    background-color: #f78809;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+    }
+
+h2 {
+    margin: 20px;
+    text-align: center;
+    align-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+   }
+
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 85%;
+    line-height: 1.5;
+}
+
+img {
+    margin: 10px auto;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+
+
+}
+
+iframe{
+
+    margin: 10px auto;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 500px;
+    
+}
+
+video {
+    margin: 10px auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 500px;
+}
+
+
+
+.box {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-content: center;
+    }
+
+
+.animation {
+    animation: 5s;
+    animation-name: move;
+    background-color: yellow;
+    animation-iteration-co{
+    background-color: orange;
+    opacity: 0;
+
+    }
+    
+    to {
+        opacity: 1;
+        background-color: #ec4150;
+    }
+}
+
+.red {
+    margin: 10px auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.container-area {
+    display:flexbox;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    margin-top: 50px;
+}
+
+
+
+.clase {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.clase:hover {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: #f7b80a;
+}
+
+  
+
+.bold {
+    font-weight: bold;
+    font-size: 25px;
+    size: 20px;
+   
+}

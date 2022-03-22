@@ -1,0 +1,99 @@
+header nav .flexMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 1.2rem; }
+
+    .flexMenu li a {
+        text-decoration: none;
+        color: #4c00ff; }
+      
+      header h1 {
+        color: #0095ff;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 40px; }
+
+
+        
+nav ul li {
+  background-color: #320236;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  display: block;
+  color: rgb(241, 188, 12);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+nav ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:hover {
+  background: black;
+}
+
+nav ul ul {
+  display: none;
+  position: relative;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+
+nav ul ul li {
+  float: none;
+  width: 100px
+}
+
+nav ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+nav ul li:hover>ul {
+  display: block;
+}
+
+
+header { display: block;
+  
+}
+
+
+.logo {
+  align-content: left;
+  justify-content: left;
+  display: -ms-flexbox;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+
+
+
+
